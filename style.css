@@ -1,0 +1,82 @@
+body {
+  margin: 2px;
+}
+.navigation {
+  display: flex;
+  margin: 2px;
+  margin-left: 12px;
+  flex-direction: row;
+  text-decoration: none;
+  height: 40px;
+  align-items: center;
+  gap: 1100px;
+  border: 1px solid white;
+  border-bottom: 1px solid white;
+  color:black;
+}
+.navigation ul {
+  text-align: center;
+}
+.navcontent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.navigation button{
+    padding: 8px;
+    color: skyblue;
+    border: 1px solid skyblue;
+    background-color: white;
+}
+.container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #18b9ec;
+    padding: 20px;
+    color: white;
+
+}
+.content{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: white;
+}
+.mainclasscont div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+.cardcontainer{
+    margin: 0px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.cardcontainer img{
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+}
+
+.cardcontainer h4{
+    text-align: left;
+}

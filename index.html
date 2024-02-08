@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script>
+        async function getdata(){
+            const response=await(fetch("class.json"))
+        }
+        const innerdata=await response.json()
+        console.log(innerdata)
+    </script>
+    <div class="navigation">
+      <div>
+        <a href="#">Title</a>
+      </div>
+
+      <div class="navcontent">
+        <a href="#">HOME</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+        <button>Button</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="content">
+        <h1>Title</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea unde
+          molestiae, non quae in corrupti id maiores
+        </p>
+        <button>Read more</button>
+      </div>
+    </div>
+
+    <div class="mainclasscont">
+      <div>
+        <h1>Classes</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+          delectus, magnam,
+        </p>
+      </div>
+
+      <div class="cardcontainer">
+        <img src="" alt="add image " />
+        <h4>Basic Technincal</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
+          illum reiciendis nobis architecto
+        </p>
+        <button>view</button>
+      </div>
+    </div>
+  </body>
+</html>
