@@ -6,14 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <script>
-        async function getdata(){
-            const response=await(fetch("class.json"))
-        }
-        const innerdata=await response.json()
-        console.log(innerdata)
-    </script>
     <div class="navigation">
       <div>
         <a href="#">Title</a>
@@ -47,16 +41,10 @@
           delectus, magnam,
         </p>
       </div>
-
-      <div class="cardcontainer">
-        <img src="" alt="add image " />
-        <h4>Basic Technincal</h4>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
-          illum reiciendis nobis architecto
-        </p>
-        <button>view</button>
-      </div>
     </div>
+
+    <div class="cardcontainer"></div>
+    <script src="index.js" ></script>
   </body>
+
 </html>

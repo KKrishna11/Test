@@ -64,19 +64,46 @@ a{
     gap: 2px;
 }
 .cardcontainer{
-    margin: 0px;
-    width: 300px;
-    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    height: auto;
+    margin-left: 120px;
+}
+.card-body{
+    margin: 10px;
+    width: 400px;
+    height: 400px;
     box-shadow: 1px 1px 1px 1px grey;
+    padding-bottom: 12px;
+    background-color: #18b9ec;
+
 }
 
-.cardcontainer img{
-    text-align: center;
-    width: 300px;
-    height: 200px;
+.imagecontainer {
+    width: 400px;
+    height: 144px;
     background-color: gray;
+    text-align: center;
+}
+.cardinfo{
+    padding: 20px;
+    padding-left: 8px;
+    word-spacing: 0%;
 }
 
-.cardcontainer h4{
-    text-align: left;
+.cardinfo button{
+background-color: white;
+color: grey;
+border: 1px solid grey;
+border-radius: 2px;
+width: 44px;
+height: 30px;
+}
+
+#mytext{
+    width:fit-content ;
+    height: 100px;
+    color: black;
+    overflow: scroll;
 }
